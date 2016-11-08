@@ -1,0 +1,31 @@
+{
+  "name": "tilt-scan",
+  "version": "1.0.2",
+  "description": "Nodejs Command Line Utility to read Tilt Hydrometers",
+  "main": "index.js",
+  "dependencies": {
+    "bleacon": "^0.4.0",
+    "commander": "^2.9.0",
+    "request": "^2.78.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbryant/tilt-scan.git"
+  },
+  "bin": {
+    "tilt-scan": "tilt-scan.js"
+  },
+  "keywords": [
+    "tilt",
+    "brew",
+    "beer",
+    "hydrometer",
+    "fermentation"
+  ],
+  "author": "Tyler Bryant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbryant/tilt-scan/issues"
+  },
+  "homepage": "https://github.com/tbryant/tilt-scan#readme"
+}
